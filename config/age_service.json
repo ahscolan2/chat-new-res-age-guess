@@ -1,0 +1,20 @@
+{
+  "min_image_edge": 128,
+  "detector_name": "simple",
+  "default_confidence_level": 0.9,
+  "return_face_bbox_default": false,
+  "model_metadata": {
+    "name": "CalibratedLinearNet",
+    "version": "1.0.0",
+    "mean_absolute_error": 6.2,
+    "calibration_date": "2024-01-04",
+    "fairness_warnings": [
+      "Model exhibits higher error rates on low-light imagery.",
+      "Training data skews toward adults aged 20-40 years."
+    ],
+    "limitations": [
+      "Predictions are estimates and should not be used for legal age verification.",
+      "Performance may degrade on occluded or low-resolution faces."
+    ]
+  }
+}
